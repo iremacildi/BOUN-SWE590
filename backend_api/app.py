@@ -19,3 +19,6 @@ def sentiment_analysis():
     input_lang = data['inputLanguage']
     response = sentiment.get_sentiment(input_text, input_lang)
     return jsonify(response)
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=80)
