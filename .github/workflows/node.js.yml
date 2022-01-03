@@ -33,7 +33,5 @@ jobs:
       working-directory: frontend_webapp
     - run: npm i -g npm@latest
       working-directory: frontend_webapp
-    - run: CI='' npm run build --if-present
-      working-directory: frontend_webapp
-    - run: npm test
+    - run: CI='' npm run build
       working-directory: frontend_webapp
