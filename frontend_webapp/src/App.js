@@ -27,7 +27,7 @@ function App() {
   };
 
   const sentimentAnalysis = (body) => {
-    fetch('http://127.0.0.1:5000/sentiment-analysis', {
+    fetch('http://20.113.21.38/sentiment-analysis', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
