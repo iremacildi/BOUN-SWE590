@@ -27,7 +27,7 @@ function App() {
   };
 
   const sentimentAnalysis = (body) => {
-    fetch('http://20.113.21.38/sentiment-analysis', {
+    fetch('http://28b4fc65-bdba-45c0-a385-f562df625d7b.cloudapp.net/sentiment-analysis', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
